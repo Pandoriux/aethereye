@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "denoland.vscode-deno",
+    "rust-lang.rust-analyzer",
+    "tauri-apps.tauri-vscode"
+  ]
+}
