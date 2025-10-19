@@ -1,0 +1,40 @@
+{
+  "name": "aethereye",
+  "version": "0.0.0",
+  "description": "AetherEye is an offline-first, portable file and folder organizer with a robust tagging system. Effortlessly browse your content using tags and share your collections with others via import/export.",
+  "license": "AGPL-3.0-or-later",
+
+  "exports": "./README.md",
+
+  "tasks": {
+    "dev": "vite",
+    "build": "vite build",
+    "tauri": "tauri"
+  },
+
+  "nodeModulesDir": "auto",
+  "imports": {
+    "solid-js": "npm:solid-js@^1.9.9",
+    "@tauri-apps/api": "npm:@tauri-apps/api@^2.8.0",
+    "@tauri-apps/cli": "npm:@tauri-apps/cli@^2.8.4",
+    "@tauri-apps/plugin-opener": "npm:@tauri-apps/plugin-opener@^2.5.0",
+    "vite": "npm:vite@^7.1.10",
+    "vite-plugin-solid": "npm:vite-plugin-solid@^2.11.9"
+  },
+
+  "compilerOptions": {
+    "module": "esnext",
+    "lib": ["esnext", "dom", "dom.iterable", "deno.ns"],
+    "types": ["vite/client"],
+
+    "moduleResolution": "bundler",
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}

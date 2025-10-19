@@ -1,0 +1,5 @@
+# NPM node_modules. Looking forward to a node_modules-less setup in the future with Deno.
+/node_modules/
+
+# Frontend build output.
+/dist/
