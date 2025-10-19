@@ -1,6 +1,6 @@
 [package]
 name = "aethereye"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["Pandoriux"]
 description = "AetherEye is an offline-first, portable file and folder organizer with a robust tagging system. Effortlessly browse your content using tags and share your collections with others via import/export."
 edition = "2021"
